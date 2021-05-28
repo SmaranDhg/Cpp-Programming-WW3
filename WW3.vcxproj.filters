@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Window Management\EndGameState.cpp" />
+    <ClCompile Include="Resources\Button.cpp" />
+    <ClCompile Include="Entities\Entity.cpp" />
+    <ClCompile Include="Window Management\MenuState.cpp" />
+    <ClCompile Include="Window Management\GameState.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Window Management\IntroWindow.cpp" />
+    <ClCompile Include="Window Management\State.cpp" />
+    <ClCompile Include="Entities\Players.cpp" />
+    <ClCompile Include="Entities\PlayObjects\Cannon.cpp" />
+    <ClCompile Include="Entities\PlayObjects\Mortar.cpp" />
+    <ClCompile Include="Entities\PlayObjects\Fire.cpp" />
+    <ClCompile Include="Entities\PlayObjects\Bullet.cpp" />
+    <ClCompile Include="Window Management\PlayerSelectionState.cpp" />
+    <ClCompile Include="Window Management\AreaSelection.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window Management\EndGameState.h" />
+    <ClInclude Include="Entities\Entity.h" />
+    <ClInclude Include="Entities\Players.h" />
+    <ClInclude Include="Resources\Button.h" />
+    <ClInclude Include="Window Management\GameState.h" />
+    <ClInclude Include="StaticContent.h" />
+    <ClInclude Include="Window Management\IntroWindow.h" />
+    <ClInclude Include="Window Management\MenuState.h" />
+    <ClInclude Include="Window Management\State.h" />
+    <ClInclude Include="Window Management\windows.h" />
+    <ClInclude Include="Entities\PlayObjects\Cannon.h" />
+    <ClInclude Include="Entities\PlayObjects\Mortar.h" />
+    <ClInclude Include="Entities\PlayObjects\Fire.h" />
+    <ClInclude Include="Entities\PlayObjects\Animation.h" />
+    <ClInclude Include="Window Management\PlayerSelectionState.h" />
+    <ClInclude Include="Entities\PlayObjects\Bullet.h" />
+    <ClInclude Include="Window Management\AreaSelection.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Sounds\Air Raid Siren.wav" />
+    <Media Include="Assets\Sounds\BackGroundScore.wav" />
+    <Media Include="Assets\Sounds\Cannon Fire.wav" />
+    <Media Include="Assets\Sounds\MenuSelectSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\sprites\bullets.png" />
+    <Image Include="Assets\sprites\German_all.png" />
+    <Image Include="Assets\sprites\sky.jpg" />
+    <Image Include="Assets\sprites\war.jpg" />
+    <Image Include="Assets\sprites\player.png" />
+    <Image Include="Assets\sprites\Players.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="Config\window.ini" />
+    <None Include="CppProperties.json" />
+    <None Include="openal32.dll" />
+    <None Include="Proposal\scope.docx" />
+    <None Include="README.md" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\ram.txt" />
+    <Text Include="Assets\sprites\SpriteLinks.txt" />
+    <Text Include="Entities\PlayObjects\Source.txt" />
+    <Text Include="Proposal\Acknowlwdgement.txt" />
+    <Text Include="Todo.txt" />
+    <Text Include="x64\Debug\WW3.vcxproj.FileListAbsolute.txt" />
+  </ItemGroup>
+</Project>

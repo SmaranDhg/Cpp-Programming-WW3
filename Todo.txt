@@ -1,0 +1,30 @@
+//guyz yo chai tme haru le garna parcha hai
+
+Player:
+Player one and Player two Sprite
+Sprite Animation
+Movement(jump,crouch and stuff)
+
+
+Bullet:
+Bullets shooting movement
+Shooting sound
+
+Cannon:
+Cannon Sprite and placement in the specific place
+Cannon ball trajectory movement
+Cannon fire sound
+
+Backgroud:
+Backgroud sprite
+Two battle ground division
+Placement of Bunker and cannon
+
+
+Programming:
+Player bullet collision detection and bullet hit animation(blood and stuff)
+Player movement restriction to window area only
+And player's shooting sound
+Explosion  of granade animation
+
+

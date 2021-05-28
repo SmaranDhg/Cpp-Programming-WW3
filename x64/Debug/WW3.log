@@ -1,0 +1,40 @@
+﻿  Fire.cpp
+C:\Users\Acer\source\repos\WW3\StaticContent.h(43,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Acer\source\repos\WW3\StaticContent.h(43,50): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\Acer\source\repos\WW3\Entities\PlayObjects\Fire.cpp(31,21): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Acer\source\repos\WW3\Entities\PlayObjects\Fire.cpp(39,23): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Acer\source\repos\WW3\Entities\PlayObjects\Fire.cpp(46,21): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Acer\source\repos\WW3\Entities\PlayObjects\Fire.cpp(47,20): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  WW3.vcxproj -> C:\Users\Acer\source\repos\WW3\x64\Debug\WW3.exe
